@@ -3,6 +3,13 @@
   "name": "Visual Anchor",
   "description": "An extension to assist people with hemispatial neglect in viewing webpages",
   "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["script.js"],
+      "css": ["style.css"]
+    }
+  ],
   "action": {
     "default_icon": {
       "24": "/images/anchor-24w.png",

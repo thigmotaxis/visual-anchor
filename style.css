@@ -1,0 +1,8 @@
+.test {
+  background-color: orange;
+  position: fixed;
+  left: 0;
+  margin-right: 40px;
+  width: 5vw;
+  height: 100vh;
+}
