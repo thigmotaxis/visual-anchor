@@ -4,8 +4,7 @@ body:before {
   z-index: 5;
   width: 2vw;
   left: 0;
-  top: 0;
-  bottom: 0;
+  height: 100vh;
   content: "";
 }
 
