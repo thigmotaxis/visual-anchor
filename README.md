@@ -29,10 +29,12 @@ the color and width of the anchor and to display it on the right rather than the
 choosing to implement left over right initially because left neglect is vastly more common than
 right neglect.
 
-Implementation plan:
+Bug Report and Future Development:
 
-During initial brainstorming on how to implement this extension, I came up with two possible
-methods. The first is to simply inject a border-left css rule. The second is to inject a
-script that creates a container element that will wrap the anchor as well as the contents of
-the page's body element, then use flex box to position the anchor on the left. The second
-method seems much more promising so I will attempt to implement that first.
+Currently, the extension creates the anchor by utilizing the body:before pseudo-element and
+position: fixed. This works on almost all websites I have tested with the sole exception of the
+youtube homepage (individual youtube videos display the bar just fine).
+
+In the near future I plan to add a popup user interface with the following features:
+- toggle the position the bar to either side of the viewport
+- change the color and width of the bar
