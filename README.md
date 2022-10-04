@@ -10,7 +10,7 @@ Q: What is hemispatial neglect?
     perception of their surroundings is impaired, they are likely to collide with obstacles
     while walking or propelling their wheelchair; driving safely becomes impossible; even
     dressing oneself and tracking conversations become difficult and exhausting.
-    
+
     Read more about hemispatial neglect here: https://en.wikipedia.org/wiki/Hemispatial_neglect
 
 Q: How does this extension help?
@@ -18,8 +18,7 @@ Q: How does this extension help?
     Treating hemispatial neglect involves gradually retraining the patient to visually scan to
     the affected side. The patient is given a target (known as a visual anchor) and trained to
     keep scanning until they perceive it. This extension creates a visual anchor within the
-    browser window using one of the two methods described in the implementation plan below.
-    I will update this readme once I have found a successful implementation method.
+    browser window that can be used by patients or clinicians to facilitate this training.
 
 Project Notes:
 
@@ -36,5 +35,6 @@ position: fixed. This works on almost all websites I have tested with the sole e
 youtube homepage (individual youtube videos display the bar just fine).
 
 In the near future I plan to add a popup user interface with the following features:
+
 - toggle the position the bar to either side of the viewport
 - change the color and width of the bar
