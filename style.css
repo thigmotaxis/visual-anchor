@@ -1,8 +1,14 @@
-.test {
-  background-color: orange;
+body:before {
+  background: #ff7b00;
   position: fixed;
+  z-index: 5;
+  width: 2vw;
   left: 0;
-  margin-right: 40px;
-  width: 5vw;
-  height: 100vh;
+  top: 0;
+  bottom: 0;
+  content: "";
+}
+
+#body {
+  margin-left: 2vw;
 }
